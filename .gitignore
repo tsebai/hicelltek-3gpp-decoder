@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*secret*
+*credential*
+
+# Private telecom captures and corpora
+*.pcap
+*.pcapng
+*.qmdl
+*.qmdl2
+*.hlog
+*.dlf
+*.isf
+*.qdb
+corpus/
+captures/
+private/
+secrets/
+
+# Proprietary binaries and build outputs
+*.dll
+*.so
+*.dylib
+*.exe
+*.bin
+build/
+dist/
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
