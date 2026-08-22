@@ -7,7 +7,7 @@ The examples in this directory are small, non-customer inputs intended to demons
 Hexadecimal PDU:
 
 ```text
-7e004411
+7e00441b
 ```
 
 Expected context:
@@ -18,7 +18,7 @@ Expected context:
 | Protocol | NAS |
 | Security context | Plain 5GMM message |
 | Message | Registration Reject |
-| 5GMM cause | 17, Network failure |
+| 5GMM cause | 27, N1 mode not allowed |
 
 Byte outline:
 
@@ -27,7 +27,7 @@ Byte outline:
 | `7e` | 5G mobility management extended protocol discriminator |
 | `00` | Plain NAS security header context |
 | `44` | Registration Reject message type |
-| `11` | Cause value 17, Network failure |
+| `1b` | Cause value 27, N1 mode not allowed |
 
 Open the [HiCellTek online decoder](https://hicelltek.com/en/decoder/), select the 5G NAS workflow and paste the PDU.
 
