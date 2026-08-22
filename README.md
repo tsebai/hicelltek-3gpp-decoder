@@ -40,7 +40,7 @@ Automated or programmatic use must use the paid API. The Pro plan is EUR 29 per 
 ## Minimal 5G NAS example
 
 ```text
-7e004411
+7e00441b
 ```
 
 In the expected plain 5GMM context, the bytes represent:
@@ -48,7 +48,7 @@ In the expected plain 5GMM context, the bytes represent:
 - `7e`: 5G mobility management extended protocol discriminator
 - `00`: plain NAS security header context
 - `44`: Registration Reject message type
-- `11`: 5GMM cause 17, `Network failure`
+- `1b`: 5GMM cause 27, `N1 mode not allowed`
 
 A decoded reject cause identifies what the network signalled. One message alone is not enough to establish a complete root cause. Correlate it with the registration procedure, radio conditions, preceding NAS exchanges and network-side evidence.
 
