@@ -11,8 +11,9 @@ The decoding engine is proprietary. This repository contains public documentatio
 - GSM, UMTS, LTE and 5G NR workflows
 - RRC and NAS decoding
 - Supported structures through 3GPP Release 18
-- 20 free RRC decodes per 24 hours without signup
-- NAS, JSON output and batch decoding in the Pro plan
+- Free single-frame RRC and NAS decoding in the browser, without signup or a daily product quota
+- Programmatic API access and batch decoding in the Pro plan at EUR 29 per month
+- Custom enterprise plans for higher-volume or organization-specific requirements
 - Tree view, raw view and text export
 - Supported-channel detection and assisted selection where enough context is available
 - Expansion of supported LTE containers carrying nested NR configuration
@@ -29,6 +30,12 @@ RRC UPER data is not self-describing. Accurate decoding depends on the technolog
 5. Decode and inspect the result.
 
 Try it at [hicelltek.com/en/decoder/](https://hicelltek.com/en/decoder/).
+
+## Access model
+
+The browser interface is intended for interactive, single-frame RRC and NAS decoding. It has no daily product quota, while remaining protected by server-side abuse, concurrency, request-size and resource controls.
+
+Automated or programmatic use must use the paid API. The Pro plan is EUR 29 per month and includes API and batch workflows; enterprise access is available on a custom basis. The free browser workflow is not an API licence and must not be automated or used to bypass the paid API controls.
 
 ## Minimal 5G NAS example
 
