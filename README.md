@@ -2,7 +2,7 @@
 
 [Open the HiCellTek 3GPP decoder](https://hicelltek.com/en/decoder/)
 
-HiCellTek is a browser-based decoder for isolated Layer 3 protocol data units from GSM, UMTS, LTE and 5G NR networks. It covers supported RRC and NAS structures from earlier 3GPP releases through Release 18.
+HiCellTek is a browser-based decoder for isolated Layer 3 protocol data units from GSM, UMTS, LTE and 5G NR networks. It covers supported RRC and NAS structures from earlier 3GPP releases through Release 19.
 
 The decoding engine is proprietary. This repository contains public documentation and examples only.
 
@@ -10,7 +10,7 @@ The decoding engine is proprietary. This repository contains public documentatio
 
 - GSM, UMTS, LTE and 5G NR workflows
 - RRC and NAS decoding
-- Supported structures through 3GPP Release 18
+- Supported structures through 3GPP Release 19
 - Free single-frame RRC and NAS decoding in the browser, without signup or a daily product quota
 - Programmatic API access and batch decoding in the Pro plan at EUR 29 per month
 - Custom enterprise plans for higher-volume or organization-specific requirements

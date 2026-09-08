@@ -1,6 +1,6 @@
 # Supported protocol scope
 
-HiCellTek provides browser-based decoding for supported RRC and NAS structures across several mobile-network generations. The current public scope extends from earlier 3GPP releases through Release 18.
+HiCellTek provides browser-based decoding for supported RRC and NAS structures across several mobile-network generations. The current public scope extends from earlier 3GPP releases through Release 19.
 
 ## Compatibility overview
 
@@ -39,6 +39,6 @@ For supported EN-DC messages, HiCellTek can detect and expand an NR configuratio
 - Ciphered NAS contents require the relevant deciphering context before their protected payload can be interpreted.
 - A capture header is not part of the RRC or NAS PDU and should be removed before decoding.
 - Malformed, truncated, metadata-incoherent or unsupported frames may be rejected deliberately.
-- Support through Release 18 does not imply that every optional extension or vendor-specific structure is implemented.
+- Support through Release 19 does not imply that every optional extension or vendor-specific structure is implemented.
 
 The proprietary engine is not distributed through this repository.
